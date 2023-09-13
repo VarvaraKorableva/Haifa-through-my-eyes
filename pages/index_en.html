@@ -10,29 +10,314 @@
 
     <header class="header">
         <div class="header__head-container">
-            <div class="header__logo">Haifa through my eyes</div>
+            <nav class="header__nav-wrapper">
+                <ul class="header__links-container">
+                    <li class="header__link-wrapper">
+                        <a href="#general" class="header__link">General Information</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="#nature" class="header__link">Nature and Parks</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="#transport" class="header__link">Transport of city</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="#museums" class="header__link">Museums and Attractions</a>
+                    </li>
+                </ul>
+            </nav>
             <div class="header__language-container">
                 <a class="header__language" href="index_ru.html">RU</a>
                 <a class="header__language" href="index_en.html">EN</a>
             </div>
         </div>
-        <h1 class="header__title">Haifa capital of the north</h1>
-        <a target="_blank" class="header__sub-title">learn about the history of Haifa →</a>
+        <h1 class="header__title">Haifa through my eyes</h1>
+        <a href="https://en.wikipedia.org/wiki/History_of_Haifa" target="_blank" class="header__sub-title">learn about the history of Haifa →</a>
 
-        <ul class="header__links-container">
-            <li class="header__link">general</li>
-            <li class="header__link">museums</li>
-            <li class="header__link">nature and parks</li>
-            <li class="header__link">transport</li>
-            <li class="header__link">hiking</li>
-        </ul>
+
     </header>
 
     <main class="main">
-        <section>
-           
+        <section class="general" id="general">
+            <h2 class="general__title">Haifa capital of the north</h2>
+            <div class="general__text-container">
+                <p class="general__text">Haifa is a beautiful city located on the Mediterranean coast in Israel. 
+                    This multicultural city serves as a significant economic, cultural, and transportation hub of the country.</p>
+                <p class="general__text">Geographically, Haifa is situated in northern Israel, making it an important seaport and a key transportation junction for the region. 
+                    The city is also renowned for its stunning landscapes, including lush green hills, Mediterranean beaches, and breathtaking views of Haifa Bay.</p>
+                <p class="general__text">Throughout its rich history, Haifa has been home to diverse cultures and religions, making it a cultural and religious center. The city's population is multinational and multilingual, 
+                     creating a unique atmosphere.</p>
+                <p class="general__text">Haifa is also known for its educational and research institutions, including the Technion-Israel Institute of Technology and other prestigious universities.</p>
+                <p class="general__text">This city combines a rich history, modern achievements, and beautiful nature, making it an attractive place to live and visit in Israel.</p>
+            </div>
+        </section>
+        <section class="nature" id="nature">
+            <h2 class="nature__title">Nature and Parks</h2>
+            <ul class="nature__grid-container">
+                <li class="nature__pic-wrapper">
+                    <img src="../images/greengross.jpg" alt="picture of the greengross" class="nature__pic">
+                </li>
+                <li ref class="nature__pic-wrapper">
+                    <img src="../images/whiteflower.jpg" alt="picture of nature flower" class="nature__pic">
+                </li>
+                <li class="nature__pic-wrapper">
+                    <img src="../images/nature.jpg" alt="picture of nature" class="nature__pic">
+                </li>
+                <li class="nature__pic-wrapper">
+                    <img src="../images/bug.jpg" alt="picture of bug" class="nature__pic">
+                </li>                
+                <li class="nature__pic-wrapper">
+                    <img src="../images/mango.jpg" alt="picture of mango" class="nature__pic">
+                </li>                
+                <li class="nature__pic-wrapper">
+                    <img src="../images/pomegranate.jpg" alt="picture of pomegranate" class="nature__pic">
+                </li>
+                <li class="nature__pic-wrapper">
+                    <img src="../images/flowernesher.jpg" alt="picture of flower" class="nature__pic">
+                </li>                
+                <li class="nature__pic-wrapper">
+                    <img src="../images/true.jpg" alt="picture of true" class="nature__pic">
+                </li>
+                <li class="nature__pic-wrapper">
+                    <img src="../images/grtrue.jpg" alt="picture of tree" class="nature__pic">
+                </li>                
+                <li class="nature__pic-wrapper">
+                    <img src="../images/snail.jpg" alt="picture of snail" class="nature__pic">
+                </li>
+                <li class="nature__pic-wrapper">
+                    <img src="../images/vata.jpg" alt="picture of true" class="nature__pic">
+                </li>                
+                <li class="nature__pic-wrapper">
+                    <img src="../images/yellowflower.jpg" alt="picture of flower" class="nature__pic">
+                </li>
+            </ul>
+        </section>
+        <section class="park"> 
+            <h2 class="park__title">Parks</h2>  
+            <ul class="park__container">
+                <li class="park__table">
+                    <img class="park__picture" src="../images/flamingo.jpg" alt="flamingo picture">
+                    <div class="park__text-container">
+                        <p class="park__name">Zoo</p>
+                        <p class="park__text">Haifa Zoo is an amazing place situated on the slopes of Mount Carmel in Israel. 
+                            It is home to a variety of wildlife, including exotic animals and birds. Visiting Haifa Zoo provides 
+                            a unique opportunity to see and learn about the diversity of animals from around the world. 
+                            You'll find interesting educational programs and moments to observe animals exhibiting their natural behaviors. 
+                            Haifa Zoo also serves as an important center for conservation and research, contributing to the preservation of vulnerable species and their lifestyles in the wild.
+                        </p>
+                        <p class="park__text"><span class="park__address">Address: </span>Ha-Tishbi St 124, Haifa</p>
+                    </div>
+                </li>
+                <li class="park__table">
+                    <div class="park__text-container">
+                        <p class="park__name">Carmel National Park</p>
+                        <p class="park__text">Carmel National Park is an enchanting nature reserve located on the slopes of the picturesque Mount Carmel in Northern Israel. 
+                            This park is renowned for its diverse flora and fauna, including wild mountain plants and unique bird species. The park offers numerous hiking and biking trails, 
+                            providing visitors with a wonderful opportunity to enjoy scenic landscapes and natural wonders. Carmel is also an important archaeological area, where ancient traces of human activity have been discovered. 
+                            Visiting this park brings the joy of nature, adventure, and the chance to explore the history and culture of the region.
+                        </p>
+                        <p class="park__text"><span class="park__address">Address: </span>Mount Carmel</p>
+                    </div>
+                    <img class="park__picture" src="../images/haifa.jpg" alt="Carmel National Park picture">
+                </li>
+                <li class="park__table">
+                    <img class="park__picture" src="../images/sculptures.jpg" alt="flamingo picture">
+                    <div class="park__text-container">
+                        <p class="park__name">Sculptures Garden</p>
+                        <p class="park__text">Sculptures Garden, also known as Gan Hapsalim in Hebrew, is a captivating park located in Haifa, Israel. 
+                            This unique urban oasis features a remarkable collection of contemporary sculptures created by local and international artists. 
+                            Visitors can explore the open-air art gallery, meander through lush greenery, and appreciate the fusion of art and nature. 
+                            Sculptures Garden offers a serene escape from the urban hustle, making it a perfect spot for a leisurely stroll, artistic inspiration, or a peaceful retreat. 
+                            With its dynamic display of sculptures, this park adds a touch of culture and creativity to the beautiful cityscape of Haifa.
+                        </p>
+                        <p class="park__text"><span class="park__address">Address: </span>Sderot Hatsiyonut & Shnayim Be'NovemberHaifa, Haifa</p>
+                    </div>
+                </li>
+                <li class="park__table">
+                    <div class="park__text-container">
+                        <p class="park__name">Little Switzerland</p>
+                        <p class="park__text">"Little Switzerland" in Haifa is a unique natural location known for its picturesque beauty and active opportunities. 
+                            This nature reserve offers visitors a wide range of hiking trails that wind through scenic forests and hills. 
+                            The elevated points within the park provide breathtaking views of the city of Haifa and the Mediterranean Sea. 
+                            "Little Switzerland" is also an excellent spot for picnics and family outings, 
+                            allowing you to enjoy nature and active recreation in the midst of stunning natural surroundings and ambiance.
+                        </p>
+                        <p class="park__text"><span class="park__address">Address: </span>Mount Carmel</p>
+                    </div>
+                    <img class="park__picture" src="../images/park.jpg" alt="'Little Switzerland' Park picture">
+                </li>
+                <li class="park__link">
+                    <a href="https://www.tripadvisor.com/Attractions-g293982-Activities-c57-Haifa_Haifa_District.html" target="_blank" class="park__link">See more →</a>
+                </li>
+            </ul>
+            
+        </section>
+        <section class="transportation" id="transport">
+            <h2 class="transportation__title">Transportation</h2>
+            <p class="transportation__text">Haifa provides a diverse range of transportation options for the convenience of residents and visitors. 
+                This includes buses that cover the entire city area, as well as trains and a suspended tramway, connecting different parts of the city and its suburbs. 
+                The city also boasts a well-developed network of roads and bridges, facilitating car traffic. Additionally, Haifa's port serves as a vital hub for maritime transportation in the region, 
+                connecting to many other ports in the Mediterranean Sea.
+            </p>
+            <ul class="transportation__container">
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/karmelit.jpg" alt="karmelit-pic">
+                        <p class="transportation__name">The Carmelit</p>
+                    </div>                      
+                    <p class="transportation__description">The Carmelit is an underground subway line that provides public transportation in the city of Haifa, Israel. 
+                        It is the only metro system in Israel and serves various areas of Haifa, including the city center and some of the suburbs. 
+                        The Haifa Carmelit is a convenient mode of transportation for residents and visitors, offering fast and efficient connectivity between different parts of Haifa.</p>
+                    
+                    <a class="transportation__link" href="https://moovitapp.com/" target="_blank">Go to the website →</a>
+                </li>
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/cablecar.jpg" alt="cablecar-pic">
+                        <p class="transportation__name">The Cable Car Haifa</p>
+                    </div>    
+                    <p class="transportation__description">The public cable car system in Haifa provides residents and visitors with a unique opportunity to enjoy breathtaking views of Haifa and the Mediterranean Sea. 
+                        Connecting various levels of the city, it offers convenient and affordable transportation between key points, making it an integral part of the city's public transit network.</p>
+                        
+                    <a class="transportation__link" href="https://moovitapp.com/" target="_blank">Go to the website →</a>
+                </li>
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/rakevet.png" alt="rakevet-pic">                   
+                        <p class="transportation__name">Rakevet</p>
+                    </div>
+                    <p class="transportation__description">The "Rakevet" is a commuter train system in Haifa. 
+                        It provides residents and visitors with a fast and convenient means of transportation between different areas of Haifa and its suburbs. 
+                        Rakevet consists of several lines that cover key locations in the city, including the central business district and major transportation hubs. 
+                        This public transportation system is an integral part of life in Haifa, facilitating smooth commuting throughout the city.</p>
+                    <a class="transportation__link" href="https://moovitapp.com/" target="_blank">Go to the website →</a>
+                </li>
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/ship.jpg" alt="ship-pic">
+                        <p class="transportation__name">Boats</p>
+                    </div>    
+                    <p class="transportation__description">From Haifa, you can take ferry boats to various destinations, including the Mediterranean coastline and nearby islands. 
+                        These boats offer a scenic way to explore the coastal region and provide access to beautiful coastal towns and recreational spots. Whether for leisure or transportation, 
+                        ferry services from Haifa offer unique travel experiences.</p>
+                        
+                    <a class="transportation__link" href="https://moovitapp.com/" target="_blank">Go to the website →</a>    
+                </li>
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/road.jpg" alt="cablecar-pic">
+                        <p class="transportation__name">Cable Car</p>
+                    </div>    
+                    <p class="transportation__description">The commercial cable car in Haifa offers a premium experience for residents and tourists, providing unparalleled vistas of Haifa and the Mediterranean Sea. 
+                        Offering a luxurious journey between various city levels, it caters to those seeking a more exclusive and scenic mode of transportation, adding a touch of elegance to exploring Haifa.</p>
+                        
+                    <a class="transportation__link" href="https://cablecar-haifa.co.il/" target="_blank">Go to the website →</a>
+                </li>
+                <li class="transportation__item">
+                    <div>
+                        <img class="transportation__pic" src="../images/metronit.jpg" alt="metronit-pic">            
+                        <p class="transportation__name">Metronit</p>
+                    </div>    
+                    <p class="transportation__description">Metronit is an integrated public transportation system in Israel, specifically in the city of Haifa and its suburbs. 
+                        It features modern, high-capacity buses and infrastructure for efficient and convenient travel along major routes. 
+                        Metronit provides residents and visitors in Haifa with a fast and comfortable means of transportation, serving as an integral part of the city's mobility.</p>
+                    
+                    <a class="transportation__link" href="https://moovitapp.com/" target="_blank">Go to the website →</a>
+                </li>
+            </ul>
+        </section>
+        <section class="entertainment">
+            <div class="entertainment__text-container">
+                <h2 class="entertainment__text">Haifa offers a rich array of entertainment options for all ages and interests. You can explore the city's cultural treasures by visiting museums, art galleries, and historical landmarks like the Bahá'í Gardens. 
+                    For those who enjoy an active lifestyle, there are beautiful beaches and scenic parks for walks and picnics. 
+                    Food enthusiasts will find a plethora of restaurants offering a variety of culinary delights. The nightlife is vibrant with bars, clubs, and concerts ensuring a fun-filled evening.
+                </h2>
+            </div>
+            <div class="entertainment__rotation rotation"></div>
+            <div class="entertainment__rotation-up rotation"></div>
+        </section>
+        <section class="museums" id="museums">
+            <h2 class="museums__title">Museums and Attractions</h2>
+            <ul class="museums__container">
+                <li class="museums__item">
+                    <img class="museums__pic" src="../images/technion.jpg">
+                    <div class="museums__text-container">
+                        <p class="museums__name">Madatech Museum</p>
+                        <p class="museums__text">The Madatech Museum is renowned interactive exhibits, showcasing various aspects of science and technology.</p>
+                        <p class="museums__text">The museum invites visitors on a fascinating journey into the world of technical innovations, scientific discoveries, and the history of technology. 
+                            Here, you can explore interactive demonstrations, exhibits, and experimental installations that provide a deeper understanding of the principles and applications of science and technology.
+                        </p>
+                        <p class="museums__text">Madatech also organizes educational events and programs, inviting visitors, especially young people, to learn more about the world of science and technology.</p>
+                        <p class="museums__text">This museum is an important center for the study and understanding of technological achievements and their impact on the modern world.</p>
+                        <a class="museums__link" href="https://www.madatech.org.il" target="_blank">Website →</a>
+                    </div>    
+                </li>
+                <li class="museums__item">
+                    <img class="museums__pic" src="../images/trains.jpg">
+                    <div class="museums__text-container">
+                        <p class="museums__name">Railway Transport Museum</p>
+                        <p class="museums__text">The Railway Transport Museum in Haifa offers an exciting journey into the history and development of railway systems. 
+                            Situated in the cultural hub of Israel, this museum unveils the rich history of railway transport in the region. 
+                            Visitors can explore a diverse array of exhibits, including antique locomotives and carriages, 
+                            while learning about the pivotal role railways have played in Israel's infrastructure and development. 
+                            Additionally, the museum features interactive elements and educational programs, making it an engaging and informative destination for visitors of all ages.
+                        </p>
+                        <a class="museums__link" href="https://www.rail.co.il/?page=museum" target="_blank">Website →</a>
+                    </div>    
+                </li>
+                <li class="museums__item">
+                    <img class="museums__pic" src="../images/BahGardens.jpg">
+                    <div class="museums__text-container">
+                        <p class="museums__name">Bahá'í Gardens</p>
+                        <p class="museums__text">The Bahá'í Gardens, also known as the Bahá'í Terraces or the Bahá'í Gardens of Haifa, are a unique destination in Haifa, Israel, drawing tourists and holding spiritual significance for Bahá'í followers. 
+                            These gardens are comprised of multiple terraces situated on the slopes of Mount Carmel, offering breathtaking views of the city of Haifa and the Mediterranean Sea. Among the notable architectural and spiritual features of 
+                            the gardens is the Bahá'í Shrine, which is open to visitors. 
+                            This sacred site serves as a focal point for Bahá'í worship and meditation.
+                        </p>
+                        <p class="museums__text">The Bahá'í Gardens are not only a significant religious structure but also one of Israel's most beautiful tourist attractions, seamlessly blending natural beauty with spiritual significance.</p>
+                        <a class="museums__link" href="https://ganbahai.org.il/" target="_blank">Website →</a>
+                    </div>    
+                </li>
+                <li class="museums__item-link">
+                    <a class="museums__item-all-musems-link" href="https://www.hms.org.il/eng/About_Haifa_Museums" target="_blank">See more →</a>
+                </li>
+            </ul>
         </section>
     </main>  
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <nav>
+            <ul class="footer__container">
+                <li class="footer__link-container">
+                    <a href="#general" class="footer__link">General Information</a>
+                </li>
+                <li class="footer__link-container">
+                    <a href="#nature" class="footer__link">Nature and Parks</a>
+                </li>
+                <li class="footer__link-container">
+                    <a href="#transport" class="footer__link">Transport of city</a>
+                </li>
+                <li class="footer__link-container">
+                    <a href="#museums" class="footer__link">Museums and Attractions</a>
+                </li>
+            </ul>
+            </nav>
+            <ul class="footer__container">
+            <li class="footer__link-container">
+                <a href="https://www.linkedin.com/in/varvara-korableva/" class="footer__link">Linkedin</a>
+            </li>
+            <li class="footer__link-container">
+                <a href="https://github.com/VarvaraKorableva" class="footer__link">GitHub</a>
+            </li>
+            <li class="footer__link-container">
+                <a href="https://www.instagram.com/varvarakorableva/" class="footer__link">Instagram</a>
+            </li>
+            <li class="footer__link-container">
+                <a href="https://www.facebook.com/profile.php?id=100005083546873" class="footer__link">Facebook</a>
+            </li>
+            </ul>
+        </div>
+        <p class="footer__date">created by Varvara Korableva 2023</p>
+    </footer>
 </body>
 </html>

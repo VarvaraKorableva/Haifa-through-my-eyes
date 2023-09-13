@@ -1,0 +1,130 @@
+.park {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}  
+
+.park__title {
+  font-weight: 400;
+  text-align: center;
+  opacity: 80%;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.park__container {
+  padding: 0;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.park__table {
+  list-style-type: none;
+  display: flex;
+  /*height: 270px;
+  height: fit-content;*/
+  margin-bottom: 30px;
+}
+/*
+@media screen and (max-width: 1100px) {
+  .park__table {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .park__table {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .park__table {
+    height: fit-content;
+  }
+}*/
+
+.park__picture {
+  width: 30%;
+  height: 270px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .park__picture {
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .park__picture {
+    display: none;
+  }
+}
+
+.park__text-container {
+    width: 70%;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 920px) {
+  .park__text-container {
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 552px) {
+  .park__text-container  {
+    width: calc(100% - 20px);
+  }
+}
+.park__text {
+    
+}
+
+.park__address {
+  font-weight: 600;
+}
+
+.park__name {
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.park__text:last-of-type {
+    margin: 0;
+}
+
+.park__text:first-of-type {
+    margin: 0;
+}
+
+.park__link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  align-self: flex-end;
+}
+
+.park__link:hover {
+  opacity: 0.7;
+}

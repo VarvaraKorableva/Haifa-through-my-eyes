@@ -1,3 +1,12 @@
+@import url(../fonts/fonts.css);
+
 @import url(../../blocks/body/body.css);
 @import url(../../blocks/header/header.css);
+@import url(../../blocks/general/general.css);
+@import url(../../blocks/nature/nature.css);
+@import url(../../blocks/park/park.css);
+@import url(../../blocks/transportation/transportation.css);
+@import url(../../blocks/entertainment/entertainment.css);
+@import url(../../blocks/museums/museums.css);
+@import url(../../blocks/footer/footer.css);
 
