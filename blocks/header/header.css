@@ -169,7 +169,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 880px) {
   .header__links-container {
     display: none;
   }
